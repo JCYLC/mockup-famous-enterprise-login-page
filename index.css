@@ -1,0 +1,88 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+body {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.twopws {
+    /* border: 1px solid red; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#continue {
+    background-color: rgb(245, 195, 104);
+    padding: 5px;
+    border: 2px solid lightgrey ;
+}
+
+.bottom-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr {
+    width: 100%;
+}
+
+#createbutton {
+    width: 90%;
+    align-self: center;
+    padding: 5px;
+    border: 2px solid lightgray;
+}
+
+.bottomall{
+    align-self: center;
+    width: 400px;
+}
+
+#new {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#notaline {
+    font-size: 1em;
+    text-align: center;
+}
+
+#leftline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+#rightline {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+#splitter {
+    border-bottom: 1px solid black;
+}
+
+input{
+    padding: 10px;
+}
